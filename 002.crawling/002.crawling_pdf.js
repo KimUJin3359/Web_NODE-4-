@@ -1,0 +1,12 @@
+const pupperteer = require('puppeteer');
+
+const main = async () => {
+    const browser = await pupperteer.launch();
+    const page = await browser.newPage();
+
+    await page.goto('https://google.com', { waitUntil: 'networkidle2' });
+    await page.pdf({ path: 'test.pdf', format: 'A4'});
+    await browser.close();
+}
+
+main();
