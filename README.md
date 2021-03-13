@@ -31,13 +31,3 @@
 >> [실습4](https://github.com/KimUJin3359/Web_NODE-4-/blob/master/002.crawling/004.move_page.js) : 웹 페이지 다중 로드
 
 >> [실습5](https://github.com/KimUJin3359/Web_NODE-4-/blob/master/002.crawling/005.search_google.js) : 웹 페이지 자동 검색하기
-
-### 실습
-- [index.js](https://github.com/KimUJin3359/Web_NODE-4-/blob/master/001.project/index.js)
-  - 5초마다 배경화면 갱신
-  - 시간을 받아와 화면에 표시해주는 기능
-  - 해당 시각에 따라 아침, 점심, 저녁을 표시해주는 기능
-  - 해야하는 일을 Local Storage에 저장하여 불러오고 삭제하는 기능
-  - 위도, 경도를 받아와 날씨 추적(default), 위, 경도 즉 위치 허용이 안될 시 Seoul의 날씨 추적
-- [index.html](https://github.com/KimUJin3359/Web_NODE-4-/blob/master/001.project/index.html)
-  ![캡처](https://user-images.githubusercontent.com/50474972/108596494-c3c43000-73c8-11eb-9e90-312d665a9baf.JPG)
